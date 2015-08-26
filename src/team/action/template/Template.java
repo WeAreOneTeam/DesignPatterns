@@ -1,4 +1,4 @@
-package team.action.template;
+ï»¿package team.action.template;
 
 public abstract class Template
 {
@@ -12,7 +12,7 @@ public abstract class Template
 		System.out.println("This acton after the operation!");
 	}
 	
-	//ĞèÒªÍÆ³Ùµ½×ÓÀà(ÊµÏÖÀà) ÖĞÊµÏÖ
+	//éœ€è¦æ¨è¿Ÿåˆ°å­ç±»(å®ç°ç±») ä¸­å®ç°
 	protected abstract void operation();
 	
 	public void run()
