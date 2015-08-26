@@ -23,5 +23,7 @@ http://design-patterns.readthedocs.org/zh_CN/latest/creational_patterns/abstract
 * CarWheel: 车轮，类于CarFrame。
 * ACarWheel: A厂车轮，类于ACarFrame。
 * BCarWheel: B厂车轮，类于ACarWheel。
+
+##总结
 总的来说就是，生成一个工厂，工厂A只生产A的产品，工厂B只生产B的产品。
 
