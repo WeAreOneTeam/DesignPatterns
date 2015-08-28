@@ -44,7 +44,7 @@ public class Singleton
 //	}
 
 	/**
-	 * 懒汉式, 线程安全(双重校验锁) (还不理解原理 Java 1.5，volatile)
+	 * 懒汉式, 线程安全(双重校验锁) (还不理解原理 Java 1.5, volatile)
 	 */
 //	private volatile static Singleton instance = null;
 //
