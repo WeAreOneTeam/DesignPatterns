@@ -22,4 +22,5 @@ Person：继承接口Human, 并实现函数wearClothes()和walkToWhere()，作�
 
 Decorator：继承接口Human, 并将wearClothes()和walkToWhere()封装进自己的同名函数中
 
-Decorator0, Decorator1, Decorator2：分别继承类Decorator, Decorator0, Decorator1, 重写基类的wearClothes()和walkToWhere()方法，并在其中加入额外处理
+Decorator0, Decorator1, Decorator2：继承类Decorator, 重写基类的wearClothes()和walkToWhere()方法，并分别在其中加入额外处理
+

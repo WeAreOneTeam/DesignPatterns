@@ -24,7 +24,7 @@
 ##行为型
 
 13. Interpreter（解释器）
-14. Template Method（模板方法）
+14. **[Done]** Template Method（模板方法）
 15. Chain of Responsibility（责任链）
 16. Command（命令）
 17. Iterator（迭代器）
