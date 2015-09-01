@@ -14,3 +14,12 @@
 
 ##形象的比喻
 Mary过完轮到Sarly过生日，还是不要叫她自己挑了，不然这个月伙食费肯定玩完，拿出我去年在华山顶上照的照片，在背面写上“最好的的礼物，就是爱你的Fita”，再到街上礼品店买了个像框（卖礼品的MM也很漂亮哦），再找隔壁搞美术设计的Mike设计了一个漂亮的盒子装起来……，我们都是Decorator，最终都在修饰我这个人呀，怎么样，看懂了吗？
+
+##程序说明
+Human： 接口，包含wearClothes()和walkToWhere()两个方法声明
+
+Person：继承接口Human, 并实现函数wearClothes()和walkToWhere()，作为一切的基础
+
+Decorator：继承接口Human, 并将wearClothes()和walkToWhere()封装进自己的同名函数中
+
+Decorator0, Decorator1, Decorator2：分别继承类Decorator, Decorator0, Decorator1, 将基类的wearClothes()和walkToWhere()封装进自己的同名函数中，并在其中加入额外处理
